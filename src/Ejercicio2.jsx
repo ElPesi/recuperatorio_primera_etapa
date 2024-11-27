@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
+import Counter from './Counter'; 
 
-export default function Ejercicio2() {
+function Ejercicio2() {
   return (
     <div>
-      <h1>Ejercicio modularización</h1>
+      <h1>Ejercicio 2</h1>
+      <Counter initialValue={5} />
     </div>
-  )
+  );
 }
+
+export default Ejercicio2;
